@@ -81,6 +81,17 @@
       <div class="caption fadeIn">Diario se aprende algo nuevo</div>
     </div>
   </div>
+  <script type="text/javascript">
+        var started;
+  function showLightBox() 
+  { 
+    if (started) return;
+    started = setTimeout(function(){
+        Lightbox.start(document.getElementById('firstImage'));
+        started;
+    },500);
+  }
+</script>
 </header>
 <!--=====================
           Content
@@ -335,15 +346,7 @@
       </div>
     <div class="clear"></div>
   </div>
-    <div class="container_12">
-    <div class="grid_12">
-      <div class="social-icons">
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-google-plus"></a>
-        <a href="#" class="fa fa-pinterest"></a>
-      </div>
-    </div>
+   
     <div class="clear"></div>
   </div>
 </section>
